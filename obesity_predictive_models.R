@@ -420,7 +420,7 @@ df$pls <- NULL
 df$nnet <- NULL
 
 
-df$obesita=ifelse(df$obesita=="c1","OB","NOB") # il nostro event c1 cioè l'obesità è ora M
+df$obesita=ifelse(df$obesita=="c1","OB","NOB") # il nostro event c1 cioÃ¨ l'obesitÃ  Ã¨ ora M
 head(df)
 df$ProbOB=test2$glm_IMP  
 # winner model
